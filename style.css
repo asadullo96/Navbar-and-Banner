@@ -518,7 +518,7 @@ header{
 .imgBanBtn-prev
 {
     left: 5px;
-    background-image: url(../img/left.png);
+    background-image: url(left.png);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -527,7 +527,7 @@ header{
 .imgBanBtn-next
 {
     right: 5px;
-    background-image: url(../img/right.png);
+    background-image: url(right.png);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -695,13 +695,19 @@ header{
 
 }
 
-.header__text
+.header__div
 {
+    padding: 20px 0 20px 0;
+    /* background-color: green; */
     text-align: center;
-    padding: 10px 0 10px 0;
-    text-decoration: none;
-    color: #69bde7;
+    color: lightblue;
 }
+
+.our__data
+{
+    padding: 5%;
+}
+
 
 
 
