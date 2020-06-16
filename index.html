@@ -6,132 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+
+    <!-- <script src="index.js"></script> -->
 
     <title>Responsive Navbar</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
+    <header>    <!-- header starts here -->
+        <div class="container">    <!-- container starts here -->
+
             <input type="checkbox" name="" id="check">
             
-            <div class="logo-container">
-                <h3 class="logo">Brand<span>Name</span></h3>
+            <div class="container__logo">
+                <h3 class="container__logo--logo">Brand<span>Name</span></h3>
             </div>
 
-            <div class="nav-btn">
-                <div class="nav-links">
+            <div class="nav__btn">      <!-- nav__btn starts here -->
+                <div class="nav__links">
                     <ul>
-                        <li class="nav-link" style="--i: .6s">
+                        <li class="nav__link" style="--i: .6s">
                             <a href="#">Home</a>
                         </li>
-                        <li class="nav-link" style="--i: .85s">
+                        <li class="nav__link" style="--i: .85s">
                             <a href="#">Menu<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
+                            <div class="nav__dropdown">
                                 <ul>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown--link">
                                         <a href="#">Link 1</a>
                                     </li>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown--link">
                                         <a href="#">Link 2</a>
                                     </li>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown--link">
                                         <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
+                                        <div class="nav__dropdown nav__dropdown--second">
                                             <ul>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">Link 1</a>
                                                 </li>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">Link 2</a>
                                                 </li>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">Link 3</a>
                                                 </li>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
+                                                    <div class="nav__dropdown nav__dropdown--second">
                                                         <ul>
-                                                            <li class="dropdown-link">
+                                                            <li class="nav__dropdown--link">
                                                                 <a href="#">Link 1</a>
                                                             </li>
-                                                            <li class="dropdown-link">
+                                                            <li class="nav__dropdown--link">
                                                                 <a href="#">Link 2</a>
                                                             </li>
-                                                            <li class="dropdown-link">
+                                                            <li class="nav__dropdown--link">
                                                                 <a href="#">Link 3</a>
                                                             </li>
-                                                            <div class="arrow"></div>
+                                                            <div class="nav__arrow"></div>
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <div class="arrow"></div>
+                                                <div class="nav__arrow"></div>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown--link">
                                         <a href="#">Link 4</a>
                                     </li>
-                                    <div class="arrow"></div>
+                                    <div class="nav__arrow"></div>
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link" style="--i: 1.1s">
+                        <li class="nav__link" style="--i: 1.1s">
                             <a href="#">Services<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
+                            <div class="nav__dropdown">
                                 <ul>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown--link">
                                         <a href="#">Link 1</a>
                                     </li>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown--link">
                                         <a href="#">Link 2</a>
                                     </li>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown--link">
                                         <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
+                                        <div class="nav__dropdown nav__dropdown--second">
                                             <ul>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">Link 1</a>
                                                 </li>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">Link 2</a>
                                                 </li>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">Link 3</a>
                                                 </li>
-                                                <li class="dropdown-link">
+                                                <li class="nav__dropdown--link">
                                                     <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
+                                                    <div class="nav__dropdown nav__dropdown--second">
                                                         <ul>
-                                                            <li class="dropdown-link">
+                                                            <li class="nav__dropdown--link">
                                                                 <a href="#">Link 1</a>
                                                             </li>
-                                                            <li class="dropdown-link">
+                                                            <li class="nav__dropdown--link">
                                                                 <a href="#">Link 2</a>
                                                             </li>
-                                                            <li class="dropdown-link">
+                                                            <li class="nav__dropdown--link">
                                                                 <a href="#">Link 3</a>
                                                             </li>
-                                                            <div class="arrow"></div>
+                                                            <div class="nav__arrow"></div>
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <div class="arrow"></div>
+                                                <div class="nav__arrow"></div>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="dropdown-link">
+                                    <li class="nav__dropdown-link">
                                         <a href="#">Link 4</a>
                                     </li>
-                                    <div class="arrow"></div>
+                                    <div class="nav__arrow"></div>
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link" style="--i: 1.35s">
+                        <li class="nav__link" style="--i: 1.35s">
                             <a href="#">About</a>
                         </li>
                     </ul>
@@ -148,46 +150,47 @@
                     <div></div>
                 </div>
             </div>
-        </div>
-    </header>
+
+        </div>    <!-- container ends here -->
+    </header>    <!-- header ends here -->
     <main>
         
-        <div class="mainBanner" id="mainBanner">
+    <div class="mainBanner" id="mainBanner">    <!-- mainBanner starts here -->
 
-            <div class="imgBanBtn imgBanBtn-prev" id="imgBanBtn-prev"></div>
-            <div class="imgBan" id="imgBan3">
-                <div class="imgBan-box">
-                    <h2>Sail the seas</h2>
-                    <p>Discover the world and open your eyes!</p>
-                </div>
-            </div>
-            <div class="imgBanBtn imgBanBtn-next" id="imgBanBtn-next"></div>
-            <div class="imgBan" id="imgBan2">
-                <div class="imgBan-box">
-                    <h2>See the beauty</h2>
-                    <p>Discover the world and open your eyes!</p>
-                </div>
-            </div>
-            <div class="imgBan" id="imgBan1">
-                <div class="imgBan-box">
-                    <h2>Whatever you feel</h2>
-                    <p>Discover the world and open your eyes!</p>
-                </div>
-            </div>
+        <div class="imgBanBtn imgBanBtn-prev" id="imgBanBtn-prev"></div>
 
+        <div class="imgBan" id="imgBan3">
+            <div class="imgBan-box">
+                <h2>Sail the seas</h2>
+                <p>Discover the world and open your eyes!</p>
+            </div>
         </div>
 
-        <h1 class="header__div">
-            <a class="header__link" href="https://ourworldindata.org/">Thanks To Our World In Data</a>
-        </h1>
-
-        <div class="our__data">
-            <iframe src="https://ourworldindata.org/grapher/users-by-social-media-platform?time=2004..2018&country=Facebook~Instagram~MySpace~Pinterest~Reddit~Snapchat~TikTok~Tumblr~Twitter~WeChat~Whatsapp~YouTube" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+        <div class="imgBanBtn imgBanBtn-next" id="imgBanBtn-next"></div>
+        <div class="imgBan" id="imgBan2">
+            <div class="imgBan-box">
+                <h2>See the beauty</h2>
+                <p>Discover the world and open your eyes!</p>
+            </div>
         </div>
-            
 
-       
-            
+        <div class="imgBan" id="imgBan1">
+            <div class="imgBan-box">
+                <h2>Whatever you feel</h2>
+                <p>Discover the world and open your eyes!</p>
+            </div>
+        </div>
+
+    </div>    <!-- mainBanner ends here -->
+
+    <h1 class="header__div">
+        <a class="header__link" href="https://ourworldindata.org/">Thanks To Our World In Data</a>
+    </h1>
+
+    <div class="our__data">
+        <iframe src="https://ourworldindata.org/grapher/users-by-social-media-platform?time=2004..2018&country=Facebook~Instagram~MySpace~Pinterest~Reddit~Snapchat~TikTok~Tumblr~Twitter~WeChat~Whatsapp~YouTube" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+    </div>
+
 
     </main>
 
